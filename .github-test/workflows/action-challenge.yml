@@ -4,6 +4,7 @@ on:
       - main
   pull_request:
 
+# Création d'un jobs pour des action spécifique
 jobs:
   test:
     runs-on: ubuntu-latest
