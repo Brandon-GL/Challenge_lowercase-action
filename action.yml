@@ -3,7 +3,7 @@ description: 'For the challenge to 16/01/2025 i need to create a lower case'
 inputs:
   text:
     description: 'Input text needed for test'
-    require: true
+    required: true
     default: 'Challenge for lowercase'
 branding:
   icon: chevron-down # Utilisation de l'icone du projet du formateur pour ne pas a avoir d'autre résultat
