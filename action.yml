@@ -20,6 +20,6 @@ runs:
       shell: bash
     - name: Start to lower text ${{ inputs.text }}
       run: |
-        lower.sh 'text=${{ inputs.text }}' >> $GITHUB_OUTPUT
+        sudo lower.sh 'text=${{ inputs.text }}' >> $GITHUB_OUTPUT
       shell: bash
       id: lower-step
