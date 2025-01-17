@@ -12,7 +12,7 @@ branding:
 outputs:
   text:
     description: 'Le texte dans lower case'
-    value: ${{ stepslower-step.outputs.text }}
+    value: ${{ steps.lower-step.outputs.text }}
 runs:
   using: "composite"
   steps:
