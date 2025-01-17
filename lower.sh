@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $1 | tr '[:upper:]' '[:lower:]'
+echo $1 | sudo tr '[:upper:]' '[:lower:]'
